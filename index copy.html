@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <div class="logo-img">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                    <path d="M12,0A12,12,0,1,0,24,12,12,12,0,0,0,12,0Zm0,22A10,10,0,1,1,22,12,10,10,0,0,1,12,22Zm-1-9H9V9h2Zm4,0H13V9h2Zm-2-5a1,1,0,0,0,1-1V6a1,1,0,0,0-2,0V7A1,1,0,0,0,13,8Zm-2,9a1,1,0,0,0-1,1v1a1,1,0,0,0,2,0V18A1,1,0,0,0,11,17Z"/>
+                </svg>
+            </div>
+        </div>
+        <div class="title">Crypto Tracker</div>
+        <a class="about" href="https://www.coingecko.com/en/api">About</a>
+        <a class="contact" href="https://github.com/adityasonar11227">Contact</a>
+        <a class="Home" href="/index.html">Home</a>
+        <button class="btn">Search</button>
+    </nav>
+    <div class="container">
+        <h1>Crypto Tracker</h1>
+        <ul id="coins-list"></ul>
+        
+        <div class="pagination">
+            <button id="prev-page">Previous</button>
+            <span id="current-page">1</span> <span id="total-pages"></span>
+            <button id="next-page">Next</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
